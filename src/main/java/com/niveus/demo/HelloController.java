@@ -12,7 +12,7 @@ public class HelloController {
 		if ("foo".equals(foo)) {
 			System.out.println("this is not going to happen");
 		}
-		return "hello";
+		return "hello from sample1";
 	}
 	
 	@GetMapping("/sample")
