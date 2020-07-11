@@ -1,7 +1,5 @@
 package com.niveus.demo;
 
-import java.util.Map;
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,5 +14,12 @@ public class HelloController {
 		}
 		return "hello";
 	}
+	
+	@GetMapping("/sample")
+	String sample() {
+		return "This is Sample message......";
+	}
+	
+	
 
 }
