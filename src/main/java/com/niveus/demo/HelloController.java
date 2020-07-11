@@ -9,9 +9,6 @@ public class HelloController {
 	
 	@GetMapping("/hello")
 	String hello(@RequestParam(required = false) String foo) {
-		if ("foo".equals(foo)) {
-			System.out.println("this is not going to happen");
-		}
 		return "hello";
 	}
 	
