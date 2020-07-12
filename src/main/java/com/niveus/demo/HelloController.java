@@ -14,7 +14,7 @@ public class HelloController {
 	
 	@GetMapping("/sample")
 	String sample() {
-		return "This is Sample message......for second commit";
+		return "This first commit from Sample1 bbranch";
 	}
 	
 	
